@@ -1,0 +1,118 @@
+.innner {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 0.8rem;
+}
+
+.inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* position: -webkit-sticky;
+    top: 0;
+    position: sticky; */
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+
+.header-menu li {
+   margin: 0.8px;
+}
+
+.header-menu a {
+    font-size: 1rem;
+    /* color: #cfd2d4; */
+    color: black;
+    text-decoration: none;
+}
+
+/* Logo and header menu stick at the top so write code here */
+.header-menu, .logo {
+    top: 0;
+}
+
+.right-side {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.secondry-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: medium;
+}
+
+#optioncontainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#optioncontainer div {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* select {
+    border: none;
+} */
+
+.contentcontainer {
+    width: 100%;
+    margin: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textContainer { 
+    margin: -0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heart {
+    margin-left: 13rem;
+}
+
+/* Set color is the prperty through which we can fill color into the heart of each hotels */
+
+.setColor {
+    color: rgb(245, 12, 12);
+    /* fill: red; */
+    /* background-color: red; */
+}
+
+.bigcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
